@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+       color:black;
+       box-sizing:border-box;
+       font-size:1rem;
+}
+body{
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.nav-list {
+    width: 100%;
+       background-color:black;
+    display:flex;
+    align-items: center;
+  
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 2%;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color:white;
+
+}
+.nav-list li a:hover{
+    color:red;
+    font-size:20px
+}
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:14%;
+  
+}
+h1{
+    font-family:"Algerian";
+    font-size:2.4rem;
+
+}
+
+    nav {
+        height: 5vh;
+        width: 100%;
+    }
+
+.logo img {
+    width: 14%;
+    border: 3px solid white;
+    border-radius: 90px;
+   /* margin-left: 17vw;
+    margin-top: 5vh; */
+}
+ 
+section  img{
+    height: 25vh;
+    width:25vw;
+}
+
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+    max-width:95%;
+    
+}
+.text img{
+    height: 32vh;
+    width:13vw;
+}
+/* section{
+    margin:19px 35px 0px 15px;
+    background-color: dimgray;
+}*/
+section{
+    background-color:white;
+}
+.sechaf img{
+    border:2px solid red;
+        height: 20vh;
+        width: 20vw;
+        border-radius:20px;
+    display:block;
+    margin-top:15px;
+ 
+}
+.new p a:hover{
+ color:red;
+ font-size: 18px;
+}
+.con1{
+   /* display:flex; */
+    justify-content: center;
+    align-items: center;
+    font-family: Arial black, Helvetica, sans-serif;
+    margin: auto;
+    max-width:95%;
+}
+section .l1{
+       /* display:flex; */
+       justify-content: center;
+       align-items: center;
+       font-family: Algerian;
+       margin: auto;
+       max-width:95%;
+   }
+.l1 img{
+    border:2px solid red;
+        height:29%;
+    width: 29%;
+    border-radius:32px;
+display:block;
+margin:auto;
+}
+
+a{
+    cursor: pointer;
+}
+.cast{
+     /* display:flex; */
+     justify-content: center;
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: auto;
+     max-width:95%;
+ }
+.cast img{
+    border:2px solid red;
+    height:10%;
+width: 15%;
+border-radius:90px;
+display:block;  
+margin:auto;
+}
+footer{
+  background-color: black;
+  color:white;
+  font-size: 16px;
+  font-family: Arial black, sans-serif;
+  text-align: center;
+}
+.about{
+    justify-content: center;
+    display:flex;
+    align-items: flex-end;
+    font-size:24px;
+    font-family: Arial black, Helvetica, sans-serif;
+}   

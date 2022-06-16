@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web</title>
+    <script>
+        function msg() {
+            alert("welcome to the This website");
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js">
+    </script>
+    <style>
+        body{
+    font-family: arial black;
+}
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+}
+nav{
+    height:80px;
+    background-color:rgb(104, 100, 100);
+}
+nav img{
+    width:120px;
+    position: absolute;
+    top:17px;
+    left:10%;
+}
+nav ul{
+    float :right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height:80px;
+    margin: 0 8px;
+}
+nav ul li a{
+    position:relative;
+    color:white;
+    font-size:16px;
+    padding:5px 0;
+    text-transform:uppercase;
+}
+nav ul li a:before{
+    position:absolute;
+    content:'';
+    left:0;
+    bottom:0;
+    height: 3px;
+    width:100%;
+    background-color:white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform.4s linear;
+}
+nav ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+
+}
+label #btn,
+label #can{
+    color:white;
+    font-size: 30px;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+    display:none;
+}
+#check{
+    display:none;
+}
+@media (max-width:1118px){
+    nav img{
+        left:8%;
+    }
+}
+@media (max-width:944px){
+    nav img{
+        left:6%;
+        top:20px;
+        width: 130px;
+    }
+    nav ul li a{
+        font-size: 17px;
+    }
+}
+@media (max-width:860px){
+    label #btn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width:100%;
+     height: 100vh;
+     font-family: arial black;
+     color:white;
+      background-color:black;
+top:80px;
+left:-100%;
+text-align:center;
+transition: all .5s;
+    }
+    nav ul li{
+        display:block;
+        margin:50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 22px;
+        color:red;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #can{
+        display: block;
+       
+    }
+  
+}
+
+
+    </style>
+</head>
+<body onload="msg()">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+                 <i class="fas fa-times" id="can"></i>
+        </label>
+        <img src="harry-potter-logo.png" alt="logo">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contect</a></li>
+            <li><a href="#">feedback</a></li>
+        </ul>
+      
+    </nav>
+<br><br>
+    <section class="background fsec">
+        <div class="box-main">
+            <div class="fhaf">
+                <h1>harry potter</h1><br>
+                <p>
+                    Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels
+                    chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron
+                    Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.
+                </p>
+            </div>
+            <div class="sechaf">
+                <img src="shining-hogwarts-castle-0l1zadf1d7g92cai.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+    <section class="new">
+        <div class="home">
+            <p class="con1">
+                <a href="#hp1"> 1). Harry Potter and the Philosopher's Stone</a><br>
+                <a href="#hp2"> 2). Harry Potter and the Chamber of Secrets</a><br>
+                <a href="#hp3"> 3). Harry Potter and the Prisoner of Azkaban</a><br>
+                <a href="#hp4"> 4). Harry Potter and the Goblet of Fire></a><br>
+                <a href="#hp5"> 5). Harry Potter and the Order of the Phoenix </a><br>
+                <a href="#hp6"> 6). Harry Potter and the Half-Blood Prince</a><br>
+                7).
+                <br>
+                part 1:<a href="#hp7.1"> Harry Potter and the Deathly Hallows</a><br>
+                part 2:<a href="#hp7.2">Harry Potter and the Deathly Hallows</a>
+                <br><br>
+        </div>
+        </p>
+        </p>
+
+        <p class="con2">
+        <section class="l1">
+            <div id="hp1">
+                1). Harry Potter and the Philosopher's Stone<br>
+                <img src="wp4879938-harry-potter-and-the-philosophers-stone-wallpapers(1).jpg" alt="img"><br>
+                Harry Potter and the Philosopher's Stone (released in the United States, India and the Philippines as
+                Harry
+                Potter and the Sorcerer's Stone) is a 2001 fantasy film directed by Chris Columbus and distributed by
+                Warner
+                Bros. Pictures, based on J. K. Rowling's 1997 novel of the same name. Produced by David Heyman and
+                screenplay by Steve Kloves, it is the first instalment of the Harry Potter film series. The film stars
+                Daniel Radcliffe as Harry Potter, with Rupert Grint as Ron Weasley, and Emma Watson as Hermione Granger.
+                Its
+                story follows Harry's first year at Hogwarts School of Witchcraft and Wizardry as he discovers that he
+                is a
+                famous wizard and begins his formal wizarding education.<br><br>
+
+            </div>
+            <div id="hp2">
+                2).Harry Potter and the Chamber of Secrets<br>
+                <img src="wp5692304-harry-potter-and-the-chamber-of-secrets-wallpapers(1).jpg" alt="img"><br>
+                Harry Potter and the Chamber of Secrets is a 2002 fantasy film directed by Chris Columbus and
+                distributed by
+                Warner Bros. Pictures, based on J. K. Rowling's 1998 novel of the same name. The film, which is the
+                second
+                instalment in the Harry Potter film series, was written by Steve Kloves, and produced by David Heyman
+                The
+                film stars Daniel Radcliffe as Harry Potter, with Rupert Grint and Emma Watson as his best friends Ron
+                Weasley and Hermione Granger respectively. The story follows Harry's second year at Hogwarts School of
+                Witchcraft and Wizardry, where the Heir of Salazar Slytherin opens the Chamber of Secrets, unleashing a
+                monster that petrifies the school's students.<br><br>
+            </div>
+            <div id="hp3">
+                3). Harry Potter and the Prisoner of Azkaban<br>
+                <img src="wp4543068-harry-potter-and-the-prisoner-of-azkaban-wallpapers.jpg" alt="img"><br>
+                Harry Potter and the Prisoner of Azkaban is a fantasy novel written by British author J. K. Rowling and
+                is
+                the third in the Harry Potter series. The book follows Harry Potter, a young wizard, in his third year
+                at
+                Hogwarts School of Witchcraft and Wizardry. Along with friends Ronald Weasley and Hermione Granger,
+                Harry
+                investigates Sirius Black, an escaped prisoner from Azkaban, the wizard prison, believed to be one of
+                Lord
+                Voldemort's old allies. <br><br>
+            </div>
+            <div id="hp4">
+                4). Harry Potter and the Goblet of Fire<br>
+                <img src="PDyOf8U-harry-potter-and-the-goblet-of-fire-wallpapers.jpg" alt="img"><br>
+                Harry Potter and the Goblet of Fire is a 2005 fantasy film directed by Mike Newell and distributed by
+                Warner
+                Bros. Pictures, based on the 2000 novel of the same name. Produced by David Heyman and written by Steve
+                Kloves, it is the sequel to Harry Potter and the Prisoner of Azkaban (2004) and the fourth instalment in
+                the
+                Harry Potter film series. The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and
+                Emma
+                Watson as Harry's best friends Ron Weasley and Hermione Granger respectively.<br><br>
+            </div>
+            <div id="hp5">
+                5). Harry Potter and the Order of the Phoenix<br>
+                <img src="674450.jpg" alt="img"><br>
+                Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed
+                by
+                Warner Bros. Pictures.[6] It is based on J. K. Rowling's 2003 novel of the same name. The fifth
+                instalment
+                in the Harry Potter film series, it was written by Michael Goldenberg (making this the only film in the
+                series not to be scripted by Steve Kloves) and produced by David Heyman and David Barron. The film stars
+                Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry's best friends Ron
+                Weasley
+                and Hermione Granger. Its story follows Harry's fifth year at Hogwarts School of Witchcraft and Wizardry
+                as
+                the Ministry of Magic is in denial of Lord Voldemort's return. <br><br>
+            </div>
+            <div id="hp6">
+                6). Harry Potter and the Half-Blood Prince<br>
+                <img src="773129.jpg" alt="img"><br>
+                Harry Potter and the Half-Blood Prince is a 2009 fantasy film directed by David Yates and distributed by
+                Warner Bros. Pictures. It is based on J. K. Rowling's 2005 novel of the same name. The film, which is
+                the
+                sixth instalment in the Harry Potter film series, was written by Steve Kloves, and produced by David
+                Heyman
+                and David Barron. It stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as
+                Harry's best friends Ron Weasley and Hermione Granger respectively. The story follows Harry's sixth year
+                at
+                Hogwarts as he receives a mysterious textbook, falls in love, and attempts to retrieve a memory that
+                holds
+                the key to Lord Voldemort's downfall.<br><br>
+            </div>
+            <div id="hp7.1">
+                7). part 1: Harry Potter and the Deathly Hallows<br>
+                <img src="wp4922422-harry-potter-and-the-deathly-hallows-part-1-wallpapers.jpg" alt="img"><br>
+                Harry Potter and the Deathly Hallows – Part 1 is a 2010 fantasy film directed by David Yates and
+                distributed
+                by Warner Bros. Pictures.[5] It is the first of two cinematic parts based on J. K. Rowling's 2007 novel
+                of
+                the same name and the seventh instalment in the Harry Potter film series.[6] It was written by Steve
+                Kloves
+                and produced by David Heyman, David Barron, and Rowling and features an ensemble cast.The film stars
+                Daniel
+                Radcliffe as Harry Potter, with Rupert Grint and Emma Watson, respectively, reprising roles as Harry's
+                best
+                friends Ron Weasley and Hermione Granger. It is the sequel to Harry Potter and the Half-Blood Prince
+                (2009)
+                and is followed by the concluding entry.<br><br>
+            </div>
+            <div id="hp7.2">
+                part 2: Harry Potter and the Deathly Hallows<br>
+                <img src="wp7510482-harry-potter-and-the-deathly-hallows-part-1-wallpapers.jpg" alt="src"><br>
+                Harry Potter and the Deathly Hallows – Part 2 is a 2011 fantasy film directed by David Yates and
+                distributed
+                by Warner Bros. Pictures.[4] It is the second of two cinematic parts based on J. K. Rowling's 2007 novel
+                of
+                the same name and the eighth and final instalment in the Harry Potter film series.[5] It was written by
+                Steve Kloves and produced by David Heyman, David Barron, and Rowling. The story continues to follow
+                Harry
+                Potter's quest to find and destroy Lord Voldemort's Horcruxes in order to stop him once and for all.The
+                film
+                stars an ensemble cast consisting of Daniel Radcliffe as Harry Potter, and Rupert Grint and Emma Watson
+                as
+                Harry's best friends, Ron Weasley and Hermione Granger, alongside Helena Bonham Carter, Robbie Coltrane,
+                Ralph Fiennes, Michael Gambon, John Hurt, Jason Isaacs, Kelly MacDonald, Gary Oldman, Alan Rickman,
+                Maggie
+                Smith, and David Thewlis. Principal photography began on 19 February 2009, and was completed on 12 June
+                2010,[6] with reshoots taking place in December 2010. <br><br>
+            </div>
+        </section>
+        </p>
+        <div class="cast">
+            <a href="https://en.wikipedia.org/wiki/List_of_Harry_Potter_cast_members#Cast_and_characters"
+                target="_blank"><img src="cast.webp"></a><br><br>
+        </div>
+        <div class="about">
+            <div id="about">
+                website developer : sujal kamle<br>
+                E=mail : sujalkamle55@gmail.com
+                <div id="contect">
+                    Contect : 9875106211
+                </div>
+                <p id="inst">
+                    Instagram_id : sujal_kamle_21
+                </p>
+                <br><br>
+            </div>
+    </section>
+    <footer style="text-transform: capitalize;">
+        website creating as 2022 copyright &copy sujal kamle
+    </footer>
+</body>
+
+</html>
